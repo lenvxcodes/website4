@@ -1,19 +1,19 @@
+/*here we used the body class to choose a specific color for the page using hex format */
 .body {
-     background-color: rgb(20, 8, 8)  
+    background-color: #140808;
 }
-        
-        
-        #loading {
-            width: 300px;
-            height: 10px;
-            background-color: rgb(111, 0, 255);
-            position: absolute;
-            animation-name: example;
-            animation-duration: 4s;
-            animation-iteration-count: 2; opacity: 0;       
-            }
-            @keyframes example {
-                0% {left: -300px; top: 50%; width: 300px; opacity: 100;} 
-                100% {left: 100%; top: 50%; width: 0; opacity: 100}
-            } 
 
+
+.loading {
+    width: 300px;
+    height: 10px;
+    background-color: #6f00ff;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2; opacity: 0;       
+    }
+    @keyframes example {
+        0% {left: -300px; top: 50%; width: 300px; opacity: 100;} 
+        100% {left: 100%; top: 50%; width: 0; opacity: 100}
+    } 
