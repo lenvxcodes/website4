@@ -17,3 +17,15 @@
         0% {left: -300px; top: 50%; width: 300px; opacity: 100;} 
         100% {left: 100%; top: 50%; width: 0; opacity: 100}
     } 
+
+
+header {
+    background-color: #181a24;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+    }
